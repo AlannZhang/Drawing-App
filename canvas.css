@@ -4,18 +4,120 @@
     box-sizing: border-box;
 }
 
-main { 
+#selection_bar { 
     position: absolute;
     top: 0; 
     left: 0; 
     right: 0; 
     bottom: 0; 
-    width: 100px; 
+    width: 150px; 
     background:  #15151e; 
+    color: #e6e3d8;
+    font-size: 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 } 
-*
+
+.black { 
+    top: 100px; 
+    left: 30px; 
+    right: 0; 
+    bottom: 0; 
+    position: absolute;
+    display: block; 
+    width: 80px;
+    height: 80px; 
+    border: 1px solid #e6e3d8;
+    border-width: 7px;
+    font-size: 60px;
+    font-weight: bold;
+    background: black; 
+}
+
+.red { 
+    top: 220px; 
+    left: 30px; 
+    right: 0; 
+    bottom: 0; 
+    position: absolute;
+    display: block; 
+    width: 80px;
+    height: 80px; 
+    border: 1px solid #e6e3d8;
+    border-width: 7px;
+    font-size: 60px;
+    font-weight: bold;
+    background: red; 
+}
+
+.blue { 
+    top: 340px; 
+    left: 30px; 
+    right: 0; 
+    bottom: 0; 
+    position: absolute;
+    display: block; 
+    width: 80px;
+    height: 80px; 
+    border: 1px solid #e6e3d8;
+    border-width: 7px;
+    font-size: 60px;
+    font-weight: bold;
+    background: blue; 
+}
+
+.yellow { 
+    top: 460px; 
+    left: 30px; 
+    right: 0; 
+    bottom: 0; 
+    position: absolute;
+    display: block; 
+    width: 80px;
+    height: 80px; 
+    border: 1px solid #e6e3d8;
+    border-width: 7px;
+    font-size: 60px;
+    font-weight: bold;
+    background: yellow;  
+}
+
+.green {     
+    top: 580px; 
+    left: 30px; 
+    right: 0; 
+    bottom: 0; 
+    position: absolute;
+    display: block; 
+    width: 80px;
+    height: 80px; 
+    border: 1px solid #e6e3d8;
+    border-width: 7px;
+    font-size: 60px;
+    font-weight: bold;
+    background: green;   
+}
+
+.clear { 
+    top: 700px; 
+    left: 30px; 
+    right: 0; 
+    bottom: 0; 
+    position: absolute;
+    display: block; 
+    width: 80px;
+    height: 80px; 
+    border: 1px solid black;
+    border-width: 7px;
+    font-size: 60px;
+    font-weight: bold;
+    background: #e6e3d8; 
+}
+
 
 #canvas { 
     border: 1px solid black; 
 }
+
+
 
